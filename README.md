@@ -7,6 +7,7 @@ A random number generator with a few extra options. Built with node.js.
 	- `"l"`: integer; the minimum value. 
 	- `"u"`: integer; the maximum value.
 	- `"i"`: integer; amount of numbers to be generated.
+	- `"ext"`: string; file extension if `"writeToFile"` is set to `true`. **Should not consist of only spaces.**
 	- `"writeToFile"`: boolean; whether to display the generated numbers in the console or to export to a file.
 - Run `cmd` in the same folder as `rng.js`.
 - Type `node rng.js` into the console and hit enter.
